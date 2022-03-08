@@ -1,0 +1,17 @@
+.countdown-timer {
+  width: 600px;
+  height: 100px;
+
+  font-family: "Be Vietnam Pro";
+  font-size: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.countdown-timer span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
