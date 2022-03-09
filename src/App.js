@@ -1,6 +1,6 @@
 import CountdownTimer from "./Components/CountdownTimer/CountdownTimer";
 import './App.css'
-import { Box, Spacer, Text } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 function App() {
   return (
