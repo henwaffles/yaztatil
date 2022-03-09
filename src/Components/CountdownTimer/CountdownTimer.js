@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import { getRemainingTimeUntilMsTimestamp } from './Utils/CountdownTimerUtils';
 
 const defaultRemainingTime = {
-    seconds: '00',
-    minutes: '00',
-    hours: '00',
-    days: '00'
+    seconds: '',
+    minutes: '',
+    hours: '',
+    days: ''
 }
 
 const CountdownTimer = ({countdownTimestampMs}) => {
@@ -34,6 +34,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
             <span>{remainingTime.seconds}</span>
             <span>saniye</span>
         </div>
+
     );
 }
 
