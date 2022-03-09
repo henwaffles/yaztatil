@@ -28,3 +28,15 @@
   border-radius: 64px;
   background: linear-gradient(to right, #f8872a, #f5af19);
 }
+
+@media (max-width: 500px) {
+  .Box {
+    height: 100px;
+    width: 300px;
+    border-radius: 32px;
+  }
+  .App {
+    width: 100vw;
+    height: 100vh;
+  }
+}
