@@ -27,8 +27,6 @@
   display: flex;
   border-radius: 10px;
   background: white;
-  border: 3px solid;
-  border-color: black;
 }
 
 @media (max-width: 500px) {
