@@ -1,10 +1,5 @@
 .countdown-timer {
-  width: 600px;
-  height: 100px;
-
-  font-family: "Be Vietnam Pro";
-  font-size: 80px;
-
+  font-size: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,6 +13,6 @@
 
 @media (max-width: 500px) {
   .countdown-timer {
-    font-size: 17px;
+    font-size: 9px;
   }
 }
