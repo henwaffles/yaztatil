@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Be+Vietnam+Pro&family=League+Spartan&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Be+Vietnam+Pro&family=League+Spartan&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@300&display=swap');
 
 * {
-  font-family: "Amatic SC";
+  font-family: "Roboto Flex";
 }
 
 *::-webkit-scrollbar {
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff9f51;
+  background-color: whitesmoke;
 }
 
 .Box {
@@ -25,8 +25,10 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  border-radius: 64px;
-  background: linear-gradient(to right, #f8872a, #f5af19);
+  border-radius: 10px;
+  background: white;
+  border: 3px solid;
+  border-color: black;
 }
 
 @media (max-width: 500px) {
