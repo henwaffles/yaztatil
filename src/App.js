@@ -7,7 +7,7 @@ function App() {
   
    <div className="App">
      <Box className="Box">
-       <CountdownTimer countdownTimestampMs={1686873600000}/>
+       <CountdownTimer countdownTimestampMs={1717841700000}/>
        
      </Box>
    </div>
